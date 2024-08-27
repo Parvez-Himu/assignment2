@@ -1,11 +1,175 @@
 
-/* adding google font */
 
+* {
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+/* adding google font style */
 .inter-font{
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
   font-size: 1rem;
+  background-color: black;
+}
+
+
+.header {
+  background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(61, 61, 61, 1) 100%);
+}
+
+.header-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 40px 40px 0px 40px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-title-text{
+  color: #e6533c;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.nav-items {
+  list-style-type: none;
+  border: 1px solid #474747;
+  border-radius: 30px;
+  padding: 11px 2px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 30px;
+}
+
+.color-nav {
+  background-color: #e6533c;
+  padding: 10px 19px 10px 19px;
+  border-radius: 40px;
+  font-weight: 700;
+}
+
+.toggle-icon {
+  display: none;
+}
+
+.header-banner-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.header-banner {
+  max-width: 530px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header-banner h3 {
+  font-size: 4.4rem;
+}
+
+.header-banner h3 span {
+  font-family: 'Miama', sans-serif;
+  font-size: 7rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.banner-images {
+  width: 40%;
+  position: relative;
+  text-align: center;
+}
+
+.box{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  text-align: left;
+}  
+
+.box-one {
+  position: absolute;
+  right: 0.5rem;
+  top: 8rem;
+  padding: 6px 22px 6px 22px;
+}
+
+.box-two {
+  position: absolute;
+  padding: 10px 22px 10px 22px;
+  left: 0rem;
+  ;
+  bottom: 6rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.box-title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+#video-text{
+  font-size: 0.8rem;
+}
+
+.circle{
+  width: 2.5rem;
+  height: 2.5rem;
+  background: red;
+  border-radius: 50%;
+}
+
+
+
+
+/* Multiple shared Class */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.section-description {
+    margin: 10px 0;
+    color: #ffffff80;
+    text-align: center;
+}
+
+.btn-primary{
+  background-color: #e6533c;
+  border: none;
+}
+
+.light-color {
+  color: #ffffff80;
 }
  
+.btn-secondary,.btn-primary{
+    padding: 12px 30px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-right: 15px;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    border: 1px solid #474747;
+}
