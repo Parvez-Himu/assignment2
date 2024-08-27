@@ -61,8 +61,14 @@
   font-weight: 700;
 }
 
+/* toggle btn styling */
 .toggle-icon {
   display: none;
+}
+
+i.fa-solid .fa-bars {
+  font-size: 3rem;
+  color: #fff;
 }
 
 .header-banner-container {
